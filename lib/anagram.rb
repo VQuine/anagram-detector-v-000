@@ -18,12 +18,12 @@ class Anagram
         matches << s_word
       else
         nil
-      end        
-      
+      end
+
     end
 
     matches
-    
+
   end
 
 
