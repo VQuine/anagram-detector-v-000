@@ -7,7 +7,7 @@ class Anagram
   end
 
   def match(series)
-    initialized_word_sorted = @word.split(//).sort.join
+    initialized_word_sorted = @word.split(//).sort.join #<---split the word into individual characters (RegEx), put them in ABC order, join them back up into a gibberish word
     series_word_sorted = []
     matches = []
 
@@ -22,18 +22,9 @@ class Anagram
 
     end
 
-    matches
+    matches #<---implicit return
 
   end
 
 
 end #<---class end
-
-=begin
-takes initialized word and sorts it
-store it - word
-takes series of words and iterate through each one
-sort each word
-see if it matches the word
-return the match
-=end
