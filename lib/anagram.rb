@@ -26,5 +26,4 @@ class Anagram
 
   end
 
-
 end #<---class end
